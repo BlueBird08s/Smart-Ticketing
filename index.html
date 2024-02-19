@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/daisyui@4.7.2/dist/full.min.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script src="https://kit.fontawesome.com/a86454507a.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+    <!-- font -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+
+</head>
+<body class="mx-[150px] my-10">
+<header id="shunno" class="header mb-10">
+        <!-- navbar -->
+        <div>
+            <div class="navbar bg-base-100">
+                <div class="navbar-start">
+                  <div class="dropdown">
+                    <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+                      <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5" fill="none" viewBox="0 0 24 24" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h8m-8 6h16" /></svg>
+                    </div>
+                    <ul tabindex="0" class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52">
+                      <li><a>Home</a></li>
+                      <li><a>About</a></li>
+                      <li><a>Destination</a></li>
+                      <li><a>Search</a></li>
+                    </ul>
+                  </div>
+                  <a class="btn btn-ghost text-5xl">p-ticket</a>
+                </div>
+                <div class="navbar-center hidden lg:flex ">
+                  <ul class="menu menu-horizontal px-1">
+                    <li class="text-xl"><a>Home</a></li>
+                    <li class="text-xl"><a>About</a></li>
+                    <li class="text-xl"><a>Destination</a></li>
+                    <li class="text-xl"><a>Search</a></li>
+                  </ul>
+                </div>
+                <div class="navbar-end ">
+                  <div class="btn flex bg-green-200 text-green-700 border-green-700 rounded-xl p-6 px-8  gap-2 text-xl items-center justify-center">
+                  <a class="">Bus</a>
+                  <i class=" fa-solid fa-bus"></i>
+                  </div>
+                </div>
+              </div>
+
+        </div>
+</header>
+
+<main>
+    <!-- section 1 -->
+    <section id="ek" class="container mx-auto sec-1 mb-20">
+        <div class="relative h-[550px] mx-auto bg-auto bg-no-repeat bg-center" style="background-image: url(images/banner.png)"></div>
+        <div class="absolute lg:transform lg:-translate-y-[500px] lg:translate-x-[450px]  justify-center items-center">
+            <h1 class="text-6xl font-bold text-white mb-20">
+                END-TO-END TRAVEL WITH
+                <br>
+                <span class="text-green-400 lg:ml-[200px]">P PARIBAHAN</span>
+            </h1>
+            <p class="mb-[120px] font-bold text-xl lg:ml-10">
+                Yes, you can run unit tests and view the results directly within the app.
+                <br>
+                 <span class="lg:ml-16">Theintegrated testing features allow for a streamlined .</span>
+            </p>
+            <button onclick="enter()" class="h-[65px] w-[170px] bg-green-400 text-black text-xl font-bold rounded-xl lg:ml-[300px]">
+                CLCIK THIS
+            </button>
+        </div>
+        <div>
+            <button></button>
+        </div>
+    </section>
+
+    <!-- section 2 -->
+    <section id="dui" class="mb-20">
+        <div class="mb-16 font-bold text-5xl lg:ml-[600px]">
+            <h1>Best Offers For You</h1>
+        </div>
+
+        <!-- offer card div -->
+        <div class="flex justify-between mb-16">
+            <!-- 1st offer card -->
+
+            <div id="one-card" class="flex card card-side h-[220px] w-[573px] bg-yellow-300 rounded-2xl">
+                <div class="card-body">
+                    <h2 class="card-title text-2xl font-bold">15% OFF</h2>
+                    <p>on your next purchase</p>
+                    <p>use by January 2024</p>
+                </div>
+                
+                <div>
+                    <img src="images/cupon-devider.png" alt="Movie"/>
+                </div>
+
+                <div class="card-body">
+                  <h2 class="card-title text-3xl font-bold">NEW15</h2>
+                  <p>Coupon Code</p>
+                </div>
+              </div>
+            <!-- 2nd offer card -->
+            <div id="one-card" class="flex card card-side h-[220px] w-[573px] bg-pink-300 rounded-2xl">
+                <div class="card-body">
+                    <h2 class="card-title text-2xl font-bold">20% OFF</h2>
+                    <p>on your next purchase</p>
+                    <p>use by January 2024</p>
+                </div>
+                
+                <div>
+                    <img src="images/cupon-devider.png" alt="Movie"/>
+                </div>
+
+                <div class="card-body">
+                  <h2 class="card-title text-3xl font-bold">Couple 20</h2>
+                  <p>Coupon Code</p>
+                </div>
+              </div>
+        </div>
+        
+        <div class="btn text-green-700 border-green-700 rounded-xl text-xl lg:ml-[720px]">
+            <a class="">See All Offers</a>
+            
+        </div>
+
+    </section>
+
+    <!-- section 3 -->
+
+    <section id="tin" class="bg-gray-100 rounded-2xl border-green-400">
+      
+        
+        <div class="pt-20 ">
+          <div>
+            <h1 class="text-4xl font-bold mb-4">P.H Paribahan</h1>
+            <p class="text-xl font-semibold">Yes, you can run unit tests and view the results directly within the app. The integrated testing features allow for a streamlined.</p>
+          </div>
+      
+          <!-- 1st card part -->
+          <div class="mt-10">
+            <div class="card card-side lg:w-[1171px] lg:ml-[200px] bg-base-100 rounded-xl">
+              <div class="grid grid-cols-1 mt-10 ml-6">
+                <div class="flex justify-between">
+                  <div class="flex gap-2">
+                    <i class="text-3xl fa-solid fa-bus"></i>
+                    <div>
+                      <h1 class="text-2xl font-bold">Greenline Paribahan</h1>
+                      <p class="font-xl">Coach-009-WEB ! AC_Business</p>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="h-[60px] w-[144px] bg-green-100 rounded-xl text-green-400 font-medium text-2xl p-1 pt-2 mt-2">40 seats left</p>
+                  </div>
+                </div>
+                <div>
+                  <div>
+                    <div class="flex justify-between mb-4">
+                      <h1 class="text-2xl font-bold">Route</h1>
+                      <p class="text-2xl">Dhaka-Sylhet</p>
+                    </div>
+                    <div class="flex justify-between mb-4">
+                      <h1 class="text-2xl font-bold">Departure Time</h1>
+                      <p class="text-2xl">9:00 pm</p>
+                    </div>
+                  </div>
+                  <div class="flex gap-10">
+                    <p class="text-xl font-bold rounded-xl p-2 pt-3 h-16 w-[280px] bg-slate-300">Boarding Point - Bhola</p>
+                    <p class="text-xl font-bold rounded-xl p-2 pt-3 h-16 w-[280px] bg-slate-300">Dropping Point - Bogura</p>
+                    <p class="text-xl font-bold rounded-xl p-2 pt-3 h-16 w-[280px] bg-slate-300">Est. Time - 11 Hour</p>
+                  </div>
+                </div>
+              </div>
+              <div>
+                <img src="images/info-devider.png" alt="">
+              </div>
+              <div class="lg:mt-[100px] ml-[50px]">
+                <h1 class="text-4xl font-bold">550 TAKA</h1>
+                <p class="text-3xl font-medium">Per Seat</p>
+              </div>
+  
+            </div>
+      
+          </div>
+
+          <!-- 2nd card part  -->
+          <div class="seat-container flex justify-between lg:w-[1171px] lg:ml-[200px] pt-20 mt-20 bg-white p-6 rounded-xl">
+            <!-- left part -->
+          
+          <div class="flex ml-4">
+            <div>
+              <div>
+                <h1 class="text-5xl font-bold ">Select Your Seat</h1>
+                <div class="flex justify-between mt-10">
+                  <p class="text-2xl font-bold">Available</p>
+                  <p class=" text-green-400 text-2xl font-bold">Selected</p>
+                </div>
+              </div>
+  
+              <div id="" class="sobSeat mt-10">
+                <ul class="mb-4 justify-center gap-16">
+                  <li class="lg:ml-[555px] h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>
+                    <i class="fa-solid fa-user-tie"></i>
+                  </li>
+                </ul>
+  
+                
+                <ul class=" flex justify-center gap-16 mb-4">
+                    <li  class="font-bold text-3xl p-3 pl-6">A</li>
+                    <li id="A1" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>A1</li>
+                    <li id="A2" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>A2</li>
+                    <li id="A3" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>A3</li>
+                    <li id="A4" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>A4</li>
+                </ul>
+                <ul class="flex justify-center gap-16 mb-4">
+                    <li  class="font-bold text-3xl p-3 pl-6">B</li>
+                    <li id="B1" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>B1</li>
+                    <li id="B2" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>B2</li>
+                    <li id="B3" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>B3</li>
+                    <li id="B4" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>B4</li>
+                </ul>
+                <ul class="flex justify-center gap-16 mb-4">
+                    <li  class="font-bold text-3xl p-3 pl-6">C</li>
+                    <li id="C1" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>C1</li>
+                    <li id="C2" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>C2</li>
+                    <li id="C3" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>C3</li>
+                    <li id="C4" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>C4</li>
+                </ul>
+                <ul class="flex justify-center gap-16 mb-4">
+                    <li class="font-bold text-3xl p-3 pl-6">D</li>
+                    <li id="D1" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>D1</li>
+                    <li id="D2" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>D2</li>
+                    <li id="D3" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>D3</li>
+                    <li id="D4" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>D4</li>
+                </ul>
+                <ul class="flex justify-center gap-16 mb-4">
+                    <li  class="font-bold text-3xl p-3 pl-6">E</li>
+                    <li id="E1" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>E1</li>
+                    <li id="E2" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>E2</li>
+                    <li id="E3" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>E3</li>
+                    <li id="E4" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>E4</li>
+                </ul>
+                <ul class="flex justify-center gap-16 mb-4">
+                    <li  class="font-bold text-3xl p-3 pl-6">F</li>
+                    <li id="F1" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>F1</li>
+                    <li id="F2" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>F2</li>
+                    <li id="F3" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>F3</li>
+                    <li id="F4" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>F4</li>
+                </ul>
+                <ul class="flex justify-center gap-16 mb-4">
+                    <li class="font-bold text-3xl p-3 pl-6">G</li>
+                    <li id="G1" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>G1</li>
+                    <li id="G2" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>G2</li>
+                    <li id="G3" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>G3</li>
+                    <li id="G4" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>G4</li>
+                </ul>
+                <ul class="flex justify-center gap-16 mb-4">
+                    <li  class="font-bold text-3xl p-3 pl-6">H</li>
+                    <li id="H1" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>H1</li>
+                    <li id="H2" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>H2</li>
+                    <li id="H3" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>H3</li>
+                    <li id="H4" class="seat h-14 w-20 p-3 pl-6 bg-gray-200 font-bold text-3xl rounded-xl"><a href=""></a>H4</li>
+                </ul>
+              
+              </div>
+            </div>
+            <div>
+  
+            </div>
+          </div>
+      
+
+               <!-- right part  -->
+      <div class="mr-10">
+        <h1 class="text-5xl font-bold">Select your Seat </h1>
+        <div id="selected-seats-list" class="">
+          <ul class="flex justify-between mt-10">
+            <li class=" text-2xl font-bold">Seat <span id="num" class="bg-green-300">0</span></li>
+            <li  class=" text-2xl font-bold">Class</li>
+            <li  class=" text-2xl font-bold">Price</li>
+            <li id="notunSeat" class="flex justify-between mt-10">
+
+         </li>
+           </ul>
+         
+        </div>
+
+        <div class="flex justify-between mt-10">
+          <p class="text-2xl font-bold">Total price</p>
+          <p class="text-2xl font-bold">BDT <span id="tk" class="text-2xl font-bold">0</span></p>
+        </div>
+
+        <div class="mt-10 h-16 w-[290px] pl-2 pt-2 bg-slate-200 rounded-xl ">
+          <input class="h-12 rounded-xl justify-center items-center" type="text" placeholder="Have any coupon?">
+          <button class="btn h-10 w-20 bg-green-400">Apply</button>
+        </div>
+
+        <div class="flex justify-between mt-10">
+          <p class="text-2xl font-bold">Grand total</p>
+          <p id="final-tk" class="text-2xl font-bold">0</p>
+        </div>
+
+       <div class="grid grid-col-1 mt-10">
+        <p class="text-3xl font-bold mb-3"> passenger Name</p>
+        <input class="mb-3  bg-gray-300 rounded-xl h-16 w-[300px] required" type="text" placeholder="Enter Your Name">
+        <p class="text-3xl font-bold mb-3">Phone Number</p>
+        <input class="mb-3  bg-gray-300 rounded-xl h-16 w-[300px] required" type="number" placeholder="Enter Your Phone Number">
+        <p class=" mb-3 text-3xl font-bold">E-mail id</p>
+        <input class="mb-3 bg-gray-300 rounded-xl h-16 w-[300px]" type="email" placeholder="Enter Your E-mail Address">
+        <button onclick="finalClick()" class=" mb-3 text-3xl font-bold bg-green-300 rounded-xl h-16 w-[300px]">Button</button>
+       </div>
+
+        
+
+      </div>
+          </div>
+
+        </div>
+
+    </section>
+
+    <!-- section 4  -->
+    <!-- modal  -->
+
+    <section id="char" class="hidden">
+      <!-- <label for="my_modal_6" class="btn">open modal</label>
+
+<div class="grid grid-cols-1 justify-center items-center">
+  <input type="checkbox" id="my_modal_6" class="modal-toggle" />
+<div class="modal" role="dialog">
+  
+</div>
+</div> -->
+
+<div class="modal-box mt-[200px] ml-[200px]">
+  <img class="ml-[150px]" src="images/success.png" alt="">
+  <h3 class="font-bold text-5xl">Congratulations !</h3>
+  <p class="py-4">Thank you for having a journey with us sir. </p>
+  <p class="py-4"> Hope you'll enjoy the whole journey</p>
+  <div class="modal-action">
+    <label for="my_modal_6" class="btn bg-green-600 h-10 w-[200px] mr-[150px]">Continue!</label>
+  </div>
+</div>
+    </section>
+</main>
+
+    <footer id="pach">
+   <div>
+    <footer class="footer p-10 bg-neutral text-neutral-content rounded-xl">
+      
+      <div>
+        <h1 class="text-4xl font-bold">P Ticket</h1>
+      <p class="text-2xl font-bold">P-Ticket is a digital platform to make your <br> 
+        daily commuting better.</p>
+
+      <p class="text-2xl mt-20">@all rights reserved, P-Ticket services limited.2024</p>
+      </div>
+    <div>  
+      <nav>
+        <h6 class="footer-title">Download our app</h6> 
+        <div class="flex">
+          <img src="images/playstore.png" alt="">
+          <h1 class="text-2xl font-bold">Get it on <br> Google play</h1>
+        </div>
+      </nav>
+
+      <div class="flex justify-between gap-10 mt-20">
+        
+          <p class="text-xl">Terms & condition </p>
+          <p class="text-xl">Return & refund</p>
+          <p class="text-xl">policy Privacy policy</p>
+      </div>
+
+    </div>  
+
+      </div>
+        </footer>
+        </div>
+    </footer>
+
+    
+    <script src="arekta.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
